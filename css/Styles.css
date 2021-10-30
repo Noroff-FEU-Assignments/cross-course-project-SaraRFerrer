@@ -1,0 +1,73 @@
+.Logo {
+    max-width: 500px;
+    text-align: left;
+    display: flex;
+    float: left;
+}
+
+header {
+    background-color: #DFDA87;
+    color: #707070;
+    height: 125px;
+    width: 2000px;
+    margin-top: 50px;
+}
+
+header a {
+    color:#707070;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+padding: 100px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px;
+}
+
+nav i {
+    padding-left: 50px;
+    padding: 15px;
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+    color:#707070;
+}
+
+.active {
+   text-decoration: underline; 
+}
+
+.cta-Gray {
+    background-color: #707070;
+    color: white;
+    font-size: 2em;
+}
+
+.shopnow {
+    
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+.shopwoman {
+    text-align: center;
+}
+
+.shopman {
+    text-align: center;
+}
