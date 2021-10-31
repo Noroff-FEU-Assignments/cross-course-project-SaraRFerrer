@@ -1,3 +1,10 @@
+
+
+header,
+body {
+    font-family: "avenir", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .Logo {
     max-width: 500px;
     text-align: left;
@@ -51,10 +58,24 @@ a {
    text-decoration: underline; 
 }
 
-.cta-Gray {
+.cta-woman {
     background-color: #707070;
     color: white;
-    font-size: 2em;
+    font-size: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    left: 25%;
+    top: 155%;
+}
+
+.cta-man {
+    background-color: #707070;
+    color: white;
+    font-size: 30px;
+    padding: 20px 60px;
+    position: absolute;
+    left: 25%;
+    top: 185%;
 }
 
 .shopnow {
@@ -63,6 +84,19 @@ a {
     padding: 100px;
     text-align: center;
 }
+
+.shopnow-button {
+    background-color: #5f5f616c;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px 35px;
+    border-radius: 30px;
+    position: absolute;
+    top: 76%;
+    left: 43%;
+}
+
 
 .shopwoman {
     text-align: center;
