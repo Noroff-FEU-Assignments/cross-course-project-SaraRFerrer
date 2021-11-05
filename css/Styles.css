@@ -1,23 +1,22 @@
 
 
+.wrapper {
+    width: 100%
+}
+
 header,
 body {
     font-family: "avenir", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Logo {
-    max-width: 500px;
-    text-align: left;
+    max-width: 260px;
     display: flex;
-    float: left;
 }
 
 header {
     background-color: #DFDA87;
     color: #707070;
-    height: 125px;
-    width: 2000px;
-    margin-top: 50px;
 }
 
 header a {
@@ -28,10 +27,15 @@ header a {
 header {
     display: flex;
     align-items: center;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    width: 2000px;
+
 }
 
 nav ul {
-padding: 100px;
+padding: 150px;
 }
 
 nav li {
@@ -58,14 +62,18 @@ a {
    text-decoration: underline; 
 }
 
+main {
+    display: flex;
+}
+
 .cta-woman {
     background-color: #707070;
     color: white;
     font-size: 30px;
     padding: 20px 30px;
     position: absolute;
-    left: 25%;
-    top: 155%;
+    left: -282px;
+    top: 110px;
 }
 
 .cta-man {
@@ -74,15 +82,15 @@ a {
     font-size: 30px;
     padding: 20px 60px;
     position: absolute;
-    left: 25%;
-    top: 185%;
+    left: -288px;
+    top: 104px;
 }
 
 .shopnow {
-    
-    margin: 100px;
-    padding: 100px;
     text-align: center;
+    position: relative;
+    top: 125px;
+    left: 200px;
 }
 
 .shopnow-button {
@@ -93,15 +101,22 @@ a {
     padding: 20px 35px;
     border-radius: 30px;
     position: absolute;
-    top: 76%;
-    left: 43%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
 .shopwoman {
     text-align: center;
+    position: relative;
+    top: 1250px;
+    left: 820px;
 }
 
 .shopman {
     text-align: center;
+    position: relative;
+    top: 1300px;
+    left: 820px;
 }
