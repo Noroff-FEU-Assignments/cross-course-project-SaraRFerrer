@@ -90,6 +90,10 @@ main {
     top: 104px;
 }
 
+.shopnow img {
+    width: 100%;
+}
+
 .shopnow {
     text-align: center;
     position: relative;
@@ -153,6 +157,7 @@ nav ul {
         position: relative;
         top: -400px;
         left: 66px;
+        width: 1000px;
     }
  
     .shopnow-button {
@@ -171,7 +176,7 @@ nav ul {
     .shopwoman {
         text-align: center;
         position: relative;
-        top: 1250px;
+        top: 1300px;
         left: 345px;
     }
 
