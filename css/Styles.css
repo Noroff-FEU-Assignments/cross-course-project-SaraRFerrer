@@ -189,3 +189,27 @@ nav ul {
     }
 
 }
+
+.JacketMale{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1000px;
+    margin: 70px auto;
+    grid-gap: 60px;
+}
+
+.JacketMale img{
+    width: 100%;
+}
+
+.JacketFemale {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1000px;
+    margin: 70px auto;
+    grid-gap: 60px;
+}
+
+.jacketFemale img {
+    width: 100%;
+}
