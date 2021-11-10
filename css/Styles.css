@@ -31,7 +31,8 @@ header {
     display: flex;
     align-items: center;
     height: 125px;
-    width: 2000px;
+    width: 100%;
+    margin: auto;
 
 }
 
@@ -198,29 +199,39 @@ nav ul {
         left: 345px;
     }
 
+    .JacketMale, 
+    .JacketFemale{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        max-width: 1000px;
+        margin: 200px auto;
+        grid-gap: 60px;
+    }
+
+
+}
 
 /* List of Jackets */
 
-.JacketMale {
-    grid-template-columns: repeat(1, 1fr);
-}
 
-}
+
 
 h2 {
 font-size: 16px;
 color: rgb(75, 75, 75);
 }
 
-.JacketMale{
+.JacketMale,
+.JacketFemale {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 max-width: 1000px;
-margin: 70px auto;
+margin: 120px auto;
 grid-gap: 60px;
 }
 
-.JacketMale img{
+.JacketMale img,
+.JacketFemale img {
 width: 100%;
 }
 
@@ -232,7 +243,7 @@ width: 100%;
 .product-details{
     display: flex;
     max-width: 1000px;
-    margin: 70px auto;
+    margin: 150px auto;
 
 }
 
@@ -252,7 +263,7 @@ width: 100%;
  }
  .info {
      margin: 10px auto;
-     margin-left: 60px;
+     margin-left: 70px;
      padding: 50px;
  }
 
