@@ -356,4 +356,38 @@ p{
 
 /* About Us */
 
+main {
+    align-items: center;
+    margin: 100px auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+body {
+    text-align: center;
+}
+
+p {
+    display: block;
+    width: 500px;
+    left: -250px;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    line-height: 100px;
+}
+
+.aboutus {
+    width: 100%;
+    min-width: 500px;
+    top: 350px;
+    left: 400px;
+}
+
 
