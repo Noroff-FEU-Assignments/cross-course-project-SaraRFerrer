@@ -224,6 +224,10 @@ nav ul {
         width: 500px;
     }
 
+    main {
+        display: flex none; 
+    }
+
 }
 
 /* List of Jackets */
@@ -303,3 +307,53 @@ width: 100%;
     padding: 20px 35px;
     border-radius: 30px;
 }
+
+/* Checkout */
+
+main{
+    display: flex;
+    margin: 70px 50px auto;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    left: 200px;
+    margin: 70px auto;
+}
+
+
+
+.order-summary {
+  
+    text-align: right;
+}
+
+.total {
+    text-align: left;
+}
+
+.payment {
+    text-align: center;
+}
+
+.checkout {
+    background-color: #707070;
+    color: white;
+    font-size: 20px;
+    padding: 20px 35px;
+    border-radius: 30px;
+    position: relative;
+    top: 50px;
+}
+
+p{
+    position: relative;
+    margin-left: 500px;
+}
+
+/* About Us */
+
+
