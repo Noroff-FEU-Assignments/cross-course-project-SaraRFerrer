@@ -32,7 +32,6 @@ header {
     align-items: center;
     height: 125px;
     width: 100%;
-    margin: auto;
 
 }
 
@@ -151,8 +150,14 @@ main {
     align-items: center;
     display: flex;
     align-items: center;
-    width: 900px;
+    width: 100%;
   }
+  
+  .personal {
+      font-size: 12px;
+      text-align: center;
+  }
+
 
   main {
       flex-direction: column;
@@ -208,6 +213,16 @@ nav ul {
         grid-gap: 60px;
     }
 
+    .Prod234 img {
+        display: flex;
+        width: 115px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .details img {
+        width: 500px;
+    }
 
 }
 
