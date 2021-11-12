@@ -139,7 +139,8 @@ main {
 }
 
 @media only screen and (max-width: 760px){
-  header{
+  
+    header{
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -227,6 +228,8 @@ nav ul {
     main {
         display: flex none; 
     }
+
+
 
 }
 
@@ -349,16 +352,18 @@ main img {
     top: 50px;
 }
 
-p{
-    position: relative;
-    margin-left: 500px;
+.slogan {
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 
 /* About Us */
 
 main {
     align-items: center;
-    margin: 100px auto;
+    margin: 150px auto;
     width: 100%;
     max-width: 600px;
 }
@@ -369,25 +374,43 @@ body {
 }
 
 p {
+    font-size: 18px;
     display: block;
     width: 500px;
     left: -250px;
 }
 
-h1,
-h3 {
-    text-align: center;
-}
 
-h3 {
-    line-height: 100px;
-}
 
 .aboutus {
     width: 100%;
-    min-width: 500px;
+    min-width: 400px;
     top: 350px;
-    left: 400px;
+    left: 1100px;
 }
 
 
+@media only screen and (max-width: 760px) {
+    main{
+        margin: 150px auto;
+    }
+
+    .slogan {
+        word-wrap: break-word;
+        font-weight: bold;
+    }
+
+    p {
+        display: block;
+        width: 300px;
+    }
+
+    h3 {
+        line-height: 20px;
+        font-size: 1em;
+    }
+
+    .aboutus {
+        display: none;
+    }
+}
