@@ -66,7 +66,7 @@ a {
    text-decoration: underline; 
 }
 
-main {
+.home {
     display: flex;
     width: 100%;
     margin: auto;
@@ -313,7 +313,7 @@ width: 100%;
 
 /* Checkout */
 
-main{
+.co{
     display: flex;
     margin: 70px 50px auto;
     width: 100%;
@@ -362,7 +362,7 @@ main{
 
 /* About Us */
 
-main {
+.au {
     align-items: center;
     margin: 150px auto;
     width: 100%;
@@ -370,11 +370,11 @@ main {
 }
 
 
-body {
+.aubody {
     text-align: center;
 }
 
-p {
+.total {
     font-size: 18px;
     display: block;
     width: 500px;
@@ -386,7 +386,7 @@ p {
 .aboutus {
     width: 100%;
     min-width: 400px;
-    top: 350px;
+    top: 351px;
     left: 1100px;
 }
 
@@ -420,6 +420,10 @@ p {
 
 /* Order successful */
 
+.center {
+    text-align: center;
+}
+
 .check {
     display: block;
     width: 50%;
@@ -437,11 +441,47 @@ p {
 
 
 .wishlist {
-    font-size: 20px;
     background-color: #7070704f;
     color: white;
     font-size: 20px;
-    padding: 20px 10px;
+    padding: 20px 35px;
     border-radius: 30px;
     margin-top: 20px;
 }
+
+.recommended {
+   display: flex;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   margin: 70px auto;
+   grid-gap: 19px;
+}
+
+.recommended h2 {
+    grid-column: -1/1;
+}
+
+.recommended img {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+/* Contact Us */
+
+.cu {
+    text-align: center;
+    margin: 150px auto;
+}
+
+.questions {
+    line-height: 10px;
+}
+
+.call,
+.mail,
+.fb,
+.cs {
+    margin-top: 50px;
+}
+
