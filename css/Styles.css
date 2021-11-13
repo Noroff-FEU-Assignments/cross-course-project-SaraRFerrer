@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+
 html {
     margin: 0;
     padding: 0;
@@ -317,22 +323,32 @@ width: 100%;
     display: flex;
     margin: 70px 50px auto;
     width: 100%;
+
 }
 
-.img1,
+.img1 {
+    width: 100%;
+    max-width: 300px;
+}
+
 .img2 {
     width: 100%;
     max-width: 300px;
-    position: absolute;
-    left: 200px;
-    margin: 70px auto;
 }
 
-
+.product1,
+.product2 {
+    display: block;
+    
+    
+}
 
 .order-summary {
   
     text-align: right;
+    display: block;
+    position: absolute;
+    left: 900px;
 }
 
 .total {
@@ -351,14 +367,34 @@ width: 100%;
     border-radius: 30px;
     position: relative;
     top: 50px;
+    left: -110px;
 }
 
-.slogan {
-    font-weight: bold;
-    line-height: 30px;
-    margin-bottom: 60px;
-    margin-top: 60px;
+@media only screen and (max-width: 760px) {
+
+    .co{
+        margin: 200px auto;
+    }
+
+    header {
+        text-align: center;
+    }
+
+
+
+    .checkout{
+        top: 100px;
+        left: -50px;
+    }
+
+    .order-summary {
+        top: auto;
+        left: auto;
+        position: inherit;
+    
+    }
 }
+
 
 /* About Us */
 
@@ -369,6 +405,12 @@ width: 100%;
     max-width: 600px;
 }
 
+.slogan {
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
 
 .aubody {
     text-align: center;
