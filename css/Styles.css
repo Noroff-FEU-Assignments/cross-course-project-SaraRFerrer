@@ -370,7 +370,7 @@ width: 100%;
     left: -110px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1300px) {
 
     .co{
         margin: 200px auto;
@@ -527,3 +527,23 @@ width: 100%;
     margin-top: 50px;
 }
 
+/* Applying changes */
+
+@media screen and (mxn-width: 1300px) {
+
+    .flex {
+       display: none;
+
+    }
+
+    body {
+       align-items: center;
+       justify-content: center;
+       margin: 0;
+    }
+
+
+
+
+
+}
