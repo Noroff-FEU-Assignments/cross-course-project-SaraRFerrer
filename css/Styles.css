@@ -143,7 +143,7 @@ a {
     left: 820px;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 1300px){
   
     header{
       display: flex;
@@ -545,4 +545,49 @@ width: 100%;
 
 
 
+}
+
+.error {
+    display: none;
+    color:red;
+    font-size: 15px;
+}
+
+form {
+    padding: 3em;
+    background: rgb(248, 245, 245);
+    border-radius: 2em;
+    margin-top: 50px;
+    
+}    
+
+input {
+    width: 300px;
+    margin-top: 10px;
+    padding: 7px;
+    display: inline;
+    display: block;
+    margin: auto;
+    
+  
+}
+
+button {
+    background-color: #5a5a5ce5;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    padding: 20px 35px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+#message {
+    padding: 50px;
+    width: 150px;
 }
