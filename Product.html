@@ -35,7 +35,8 @@
           <ul>
             <li><i class="far fa-user-circle"></i>Sign In</li>
             <li><i class="far fa-heart"></i>Wishlist</li>
-            <li> <a href="checkout.html"><i class="fas fa-shopping-bag" class="Shopping"></i>Your Shoppingbag</a></li>
+            <li> <a href="checkout.html"><i class="fas fa-shopping-bag" class="Shopping"><span class="counter"></span></i>Your Shoppingbag</a></li>
+           
           </ul>
         </nav>
       </header>
@@ -55,10 +56,15 @@
           <p class="prod-info">Size guide</p>
           <p class="choose">Color:</p>
           <p class="choose">Choose Size</p>
-          <p class="Size">XS</p>
-          <p class="Size">S</p>
-          <p class="Size">M</p>
-          <p class="Size">L</p>
+          <div class="selectSize">
+            <label for="size">Select size:</label>
+            <select id="size" name="size">
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+            </select>
+          </div>
         <div>
           <button class="heart"><i class="far fa-heart">Add to wishlist</i></button>
         </div>
