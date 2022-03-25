@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/f009722376.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for https://brave-bhabha-65999c.netlify.app/ -->
+  <script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2887431,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  </head> 
+  <body>
+      <header class="header">
+        <img src="images/Rainydays_Logo.png" alt="The Rainydays Logo" class="Logo"/>
+        <nav class="flex">
+          <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="ShopWoman.html">Shop Woman</a></li>
+              <li><a href="ShopMan.html">Shop Men</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="personal">
+          <ul>
+            <li><i class="far fa-user-circle"></i>Sign In</li>
+            <li><i class="far fa-heart"></i>Wishlist</li>
+            <li> <a href="checkout.html"><i class="fas fa-shopping-bag" class="Shopping"></i>Your Shoppingbag</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main class="payment">
+          <div class="wrapper">
+        <div class="container">
+        <form action="">
+            <h1>
+                <i class="fas fa-shipping-fast"></i>
+                Shipping Details
+            </h1>
+            <div class="name">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName">
+                </div>
+                <div>
+                    <label for="lastNameame">Last Name</label>
+                    <input type="text" name="lastName">
+                </div>
+            </div>
+            <div class="street">
+                <label for="name">Address</label>
+                <input type="text" name="address">
+            </div>
+            <div class="address-info">
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" name="city">
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <input type="text" name="state">
+                </div>
+                <div>
+                    <label for="zip">Zip</label>
+                    <input type="text" name="zip">
+                </div>
+            </div>
+            <h1>
+                <i class="far fa-credit-card"></i> Payment Information
+            </h1>
+            <div class="ccNum">
+                <label for="card-num">Credit Card No.</label>
+                <input type="text" name="card-num">
+            </div>
+            <div class="ccInfo">
+                <div>
+                    <label for="card-num">Exp</label>
+                    <input type="text" name="expire">
+                </div>
+                <div class="ccv">
+                    <label for="card-num">CCV</label>
+                    <input type="text" name="security">
+                </div>
+                </div>
+                <div class="btns">
+                <a href="orderComplete.html" class="purchase">Purchase</a>
+                <a href="checkout.html" class="bckcart">Back to cart</a>
+                
+            </div>
+        </form>
+        </div>
+        </div>
+     </main>
