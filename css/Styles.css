@@ -314,6 +314,7 @@ width: 100%;
     font-size: 20px;
     padding: 20px 30px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 /* Checkout */
