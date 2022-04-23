@@ -630,3 +630,30 @@ button {
     top: 40px;
     color:red;
 }
+
+
+.w-container img {
+    width: 400px;
+    height: 500px;
+    
+}
+
+.w-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 30px;
+}
+
+.product-container img {
+    width: 400px;
+    height: 500px;
+    
+}
+
+.p-btn {
+    margin-top: 400px;
+    margin-right: 200px;
+}
